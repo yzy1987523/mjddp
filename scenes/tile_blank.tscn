@@ -1,0 +1,37 @@
+[gd_scene load_steps=1 format=3]
+
+[node name="TileBlank" type="Control"]
+layout_mode = 0
+custom_minimum_size = Vector2(56, 96)
+size = Vector2(56, 96)
+
+[node name="Shadow" type="ColorRect" parent="."]
+layout_mode = 0
+position = Vector2(5, 7)
+size = Vector2(56, 96)
+color = Color(0, 0, 0, 0.35)
+
+[node name="Body" type="ColorRect" parent="."]
+layout_mode = 0
+size = Vector2(56, 96)
+color = Color(0.42, 0.55, 1, 1)
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 0
+size = Vector2(56, 96)
+expand_mode = 3
+stretch_mode = 0
+
+[node name="Face" type="TextureRect" parent="."]
+layout_mode = 0
+position = Vector2(8, 16)
+size = Vector2(40, 64)
+expand_mode = 3
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+size = Vector2(56, 96)
+horizontal_alignment = 1
+vertical_alignment = 1
+text = ""
