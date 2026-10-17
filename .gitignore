@@ -1,3 +1,30 @@
 # Godot 4+ specific ignores
 .godot/
+
+# Godot export builds
 /android/
+/ios/
+/linux/
+/macos/
+/windows/
+/web/
+/export.cfg
+/export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores (unused for GDScript-only project, kept for safety)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Editor / IDE specific
+.vscode/
+*.code-workspace
+
+# OS / tool-specific temp files
+.directory
+Thumbs.db
+Desktop.ini
+.DS_Store
